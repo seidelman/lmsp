@@ -1,0 +1,65 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" 
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="0 0 479 98" width="400"><style>
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-wrap: break-word;
+}
+.blocklyPath {
+  stroke-width: 1px;
+}
+.blocklyText {
+  fill: rgb(255, 255, 255);
+  font-family: "Chalet", "Arial", sans-serif;
+  font-size: 12pt;
+  font-weight: 700;
+}
+.blocklyDropdownText {
+  fill: rgb(255, 255, 255) !important;
+}
+.blocklyNonEditableText > text, .blocklyEditableText > text {
+  fill: rgb(87, 94, 117);
+}
+.scratchCommentForeignObject {
+  background-color: #fff9d9;
+}
+.scratchCommentTextarea {
+  color: #a9983e;
+  background-color: #fff9d9; 
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.scratchCommentText {
+  font-size: 12pt;
+  fill: #fff9d9;
+  font-family: "Chalet", "Arial", sans-serif; 
+}
+.scratchCommentBody {
+  background-color: #fff9d9; }
+.scratchCommentTopBar {
+  fill: #fff2ae;
+  fill-opacity: 0.1}
+.scratchCommentRect {
+  fill: #fff2ae; }
+.scratchWorkspaceCommentBorder {
+  stroke: #fff2ae; }
+.scratchCommentTopBar ~ use, .scratchCommentTopBar ~ image {
+  opacity: 0.4; }
+.scratchCommentTarget {
+  display: none;
+}
+.scratchCommentResizeSE, .scratchCommentResizeSW {
+  fill: transparent;
+}
+.blocklyResizeLine {
+  stroke: #888;
+  stroke-width: 1;
+}
+</style><g xmlns="http://www.w3.org/2000/svg" class="blocklyWorkspace" transform="translate(-377.0249938964844,-286.11248779296875)"><g class="blocklyBlockCanvas" transform="translate(428.99999999999955,250.00000000000034) scale(0.675)"><g data-id="ImjTQ7xHuCILKlPgcA_b" class="blocklyDraggable" data-shapes="hat" data-category="Events" transform="translate(-77,70)"><path class="blocklyPath blocklyBlockBackground" stroke="#B89A00" fill="#F5C400" fill-opacity="1" d="m 0,0 c 25,-22 71,-22 96,0 H 226.58389282226562 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="Hy()P#@jc$V,fx+CmqXW" class="blocklyDraggable" data-shapes="stack" data-category="Movement" transform="translate(0,48)"><path class="blocklyPath blocklyBlockBackground" stroke="#a9007a" fill="#fb59ce" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 268.59986877441406 a 4,4 0 0,1 4,4 v 48  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="N/uNi9n7!mNOSgG(^Id_" data-shapes="argument round" transform="translate(167.4959259033203,12)"><path class="blocklyPath blocklyBlockBackground" stroke="#a9007a" fill="#FFFFFF" fill-opacity="1" d="m 0,0 m 16,0 H 81.10394287109375 a 16 16 0 0 1 0 32 H 16 a 16 16 0 0 1 0 -32 z"/><g class="blocklyEditableText" transform="translate(8, 2) " style="cursor: text;"><text class="blocklyText" x="40.551971435546875" y="16" dominant-baseline="middle" dy="0" text-anchor="middle">straight: 0</text></g></g><g transform="translate(8, 12) "><use xlink:href="#7501933a66751648e5ae45243f954f4758c66595"/></g><g transform="translate(56, 8) "><line stroke="#d8009b" stroke-linecap="round" x1="0" y1="0" x2="0" y2="40"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="47.247962951660156" transform="translate(65, 28) ">start moving</text><path class="blocklyPath" style="visibility: hidden" d="" fill="#a9007a"/></g><g transform="translate(8, 4) "><use xlink:href="#aa607ad066afd704ece2571d58dddc7f6a0dad58"/></g><g transform="translate(56, 4) "><line stroke="#D9B100" stroke-linecap="round" x1="0" y1="0" x2="0" y2="36"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="78.79194641113281" transform="translate(65, 24) ">when program starts</text></g><g data-id="06R-4uguy^wy9GF[]VSy" class="blocklyDraggable blocklySelected" data-shapes="c-block c-1 hat" transform="translate(311.2962962962963,77.48148148148148)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF3355" fill="#FF6680" fill-opacity="1" d="m 0, 0 a 20,20 0 0,1 20,-20 H 236.75186157226562 a 20,20 0 0,1 20,20 v 60  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="cHdAUv!L~JblTHN9EG+h" data-shapes="stack" transform="translate(62.75196838378906,0)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF3355" fill="#FF4D6A" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 181.99989318847656 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="49.43196105957031" transform="translate(8, 24) ">Increment by</text><path class="blocklyPath" style="visibility: hidden" d="" fill="#FF3355"/><g data-id="UzETci.FpnYFojkgQby#" data-shapes="argument round" transform="translate(114.86392211914062,4)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF3355" fill="#FF6680" fill-opacity="1" d="m 0,0 m 20,0 H 43.13597106933594 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.56798553466797" transform="translate(12, 20) ">value</text></g></g><g data-id="@C6vGo~GI6MhnYVLT$pe" class="blocklyDraggable" data-shapes="stack" data-category="data" transform="translate(0,63.99999999999997)"><path class="blocklyPath blocklyBlockBackground" stroke="#C46000" fill="#FF9835" fill-opacity="1" d="m 0,4 A 4,4 0 0,1 4,0 H 12 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 H 317.1518325805664 a 4,4 0 0,1 4,4 v 40  a 4,4 0 0,1 -4,4 H 48   c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 h -12 c -2,0 -3,-1 -4,-2 l -4,-4 c -1,-1 -2,-2 -4,-2 H 4 a 4,4 0 0,1 -4,-4 z"/><g data-id="aE@B*9oB,AG*KF[ubKE(" class="blocklyDraggable" data-shapes="reporter round" transform="translate(250.01586151123047,4)"><path class="blocklyPath blocklyBlockBackground" stroke="#FF3355" fill="#FF6680" fill-opacity="1" d="m 0,0 m 20,0 H 43.13597106933594 a 20 20 0 0 1 0 40 H 20 a 20 20 0 0 1 0 -40 z"/><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="19.56798553466797" transform="translate(12, 20) ">value</text></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="28.031982421875" transform="translate(8, 24) ">change</text><g data-argument-type="variable" class="blocklyEditableText" transform="translate(72.06396484375, 8) " style="cursor: default;"><rect rx="4" ry="4" x="0" y="0" width="143.77590942382812" height="32" stroke="#C46000" fill="#FF9835" class="blocklyBlockBackground" fill-opacity="1"/><text class="blocklyText blocklyDropdownText" x="61.88795471191406" y="18" dominant-baseline="middle" dy="0" text-anchor="middle">Special Value</text><use xlink:href="#588f813804b48c20d43bf8131f6556cadb365fc1" transform="translate(119.77590942382812,11)"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="9.087993621826172" transform="translate(223.83987426757812, 24) ">by</text><path class="blocklyPath" style="visibility: hidden" d="" fill="#C46000"/></g><text class="blocklyText" y="2" text-anchor="middle" dominant-baseline="middle" dy="0" x="23.37598419189453" transform="translate(8, 24) ">define</text></g></g><g class="blocklyBubbleCanvas" transform="translate(428.99999999999955,250.00000000000034) scale(0.675)"/><defs><image height="40px" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGcgaWQ9Ikljb24vNDgvbW92ZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTkuOTMxIDM4LjA2OUEyMC40MDUgMjAuNDA1IDAgMCAwIDIwLjUgNDFDMzEuODIyIDQxIDQxIDMxLjgyMiA0MSAyMC41YzAtMy44NjYtMS4wNy03LjQ4My0yLjkzMS0xMC41NjlDNDQuMDIgMTMuNTE5IDQ4IDIwLjA0NSA0OCAyNy41IDQ4IDM4LjgyMiAzOC44MjIgNDggMjcuNSA0OGMtNy40NTUgMC0xMy45ODEtMy45OC0xNy41NjktOS45MzF6IiBpZD0iQmctMiIgZmlsbD0iI0ZGRiIvPjxwYXRoIGQ9Ik0yNy41IDMzLjMyNGE1LjM1OCA1LjM1OCAwIDEgMSAwIDEwLjcxNiA1LjM1OCA1LjM1OCAwIDAgMSAwLTEwLjcxNnpNNDQuMDQgMjcuNWE1LjM1OCA1LjM1OCAwIDEgMS0xMC43MTYgMCA1LjM1OCA1LjM1OCAwIDAgMSAxMC43MTYgMHpNMjcuNSA0OEMzOC44MjIgNDggNDggMzguODIyIDQ4IDI3LjVTMzguODIyIDcgMjcuNSA3IDcgMTYuMTc4IDcgMjcuNSAxNi4xNzggNDggMjcuNSA0OHptMC0xLjVjLTEwLjQ5MyAwLTE5LTguNTA3LTE5LTE5czguNTA3LTE5IDE5LTE5IDE5IDguNTA3IDE5IDE5LTguNTA3IDE5LTE5IDE5eiIgaWQ9IkNvbWJpbmVkLVNoYXBlLTIiIGZpbGw9IiNkODAwOWIiLz48Y2lyY2xlIGlkPSJCZy0xIiBmaWxsPSIjRkZGIiBjeD0iMjAuNSIgY3k9IjIwLjUiIHI9IjIwLjUiLz48cGF0aCBkPSJNMTQuNjc2IDIwLjVhNS4zNTggNS4zNTggMCAxIDEtMTAuNzE2IDAgNS4zNTggNS4zNTggMCAwIDEgMTAuNzE2IDB6bTIyLjM2NCAwYTUuMzU4IDUuMzU4IDAgMSAxLTEwLjcxNiAwIDUuMzU4IDUuMzU4IDAgMCAxIDEwLjcxNiAwem0tMTcuNTU1Ljk3M2gtMS44MWExIDEgMCAwIDEgMC0yaDEuODF2LTEuNzY4YTEgMSAwIDAgMSAyIDB2MS43NjhoMS44MWExIDEgMCAwIDEgMCAyaC0xLjgxdjEuODIyYTEgMSAwIDAgMS0yIDB2LTEuODIyem0xLjAxNSA0Ljg1YTUuMzU4IDUuMzU4IDAgMSAxIDAgMTAuNzE3IDUuMzU4IDUuMzU4IDAgMCAxIDAtMTAuNzE2em0wLTIyLjM2M2E1LjM1OCA1LjM1OCAwIDEgMSAwIDEwLjcxNiA1LjM1OCA1LjM1OCAwIDAgMSAwLTEwLjcxNnptMCAzNy4wNEMzMS44MjIgNDEgNDEgMzEuODIyIDQxIDIwLjVTMzEuODIyIDAgMjAuNSAwIDAgOS4xNzggMCAyMC41IDkuMTc4IDQxIDIwLjUgNDF6bTAtMS41Yy0xMC40OTMgMC0xOS04LjUwNy0xOS0xOXM4LjUwNy0xOSAxOS0xOSAxOSA4LjUwNyAxOSAxOS04LjUwNyAxOS0xOSAxOXoiIGlkPSJDb21iaW5lZC1TaGFwZS0xIiBmaWxsPSIjZDgwMDliIi8+PC9nPjwvc3ZnPg==" id="7501933a66751648e5ae45243f954f4758c66595"/><image height="40px" width="40px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGcgaWQ9Ikljb24vNDgvcGxheS1ibG9jayIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjRkZGRkZGIiBkPSJNMzMuNjggMjQuNUwxNS4zMiAxMi4wOHYyNC44NHoiLz48L2c+PC9zdmc+" id="aa607ad066afd704ece2571d58dddc7f6a0dad58"/><image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABFUlEQVQoU7WQwUqFQBSGZ+71Ck4UTDI4yLjsGXyAdrUQBFflKtq0q1X7il6gxzHQnTFuxhbuxb1GmKLlhMEFmS606uzO4Xzn/88PAQArjPE+QkgbhmGDEIJAqa7rJl3Xx7ZtvyBj7DDLsmuM8TGE8EDTtCMIoa4wn+M4vgohHqDruixN0xIA8OuyqtT3/fOPQp7ndxjjK3VB6UchxPl8dW1ZllkUxT3G+HIXJKUc5mXP86KtjTWldFa6IYTcLiEp5Qfn/CwIgqQsy3rpe0UpNTnnF4yxxxmSUr7HcRz4vv/SNE0zz9RHoW3bZhRFJ47jnCZJ8hSGYV7X9dtWdVcykBCyZxjGZpqmvqqqbmnxzyjVEP4f+AaaUGfVDWVtuQAAAABJRU5ErkJggg==" id="588f813804b48c20d43bf8131f6556cadb365fc1"/></defs></g></svg>

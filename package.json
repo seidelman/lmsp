@@ -1,0 +1,25 @@
+{
+  "name": "lmsp",
+  "version": "1.0.0",
+  "main": "cli.mjs",
+  "license": "MIT",
+  "description": "Simple tool for reading and manipulating LEGO Education EV3 Classroom (LMSP) files",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "getopts": "^2.3.0",
+    "jszip": "^3.7.1"
+  },
+  "author": "Sergey Eidelman",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  },
+  "bin": {
+    "lmsp": "./cli.mjs"
+  },
+  "engines": {
+    "node": ">16.0.0"
+  }
+}
