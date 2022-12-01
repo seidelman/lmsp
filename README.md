@@ -1,5 +1,4 @@
-<center>![content of surce.svg](logo.png)</center>
----
+![content of surce.svg](logo.png)
 
 # LEGO EV3 Classroom Project Tool
 The LMSP tool is a simple command line tool that copies selected stacks from one [LEGO EV3 Classroom](https://education.lego.com/en-us/downloads/mindstorms-ev3/software) project file `*.lmsp` to another. 
@@ -9,9 +8,8 @@ The LEGO EV3 Classroom is a nice entry level programing environment for LEGO EV3
 
 However, as programs get more complicated, the user quickly discovers one big limitation:
 
-<div style="color: red; text-align: center; font-size: 1.5em; border: solid 1px red">
-    There is no way to copy blocks between different projects using the UI
-</div> 
+
+> ### There is no way to copy blocks between different projects using the UI</div>
 
 For people involved in [First Lego League (FLL)](https://www.firstlegoleague.org) competitions, there are 2 use cases that are extremely painful because of that:
 
